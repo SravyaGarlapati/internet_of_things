@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<link rel='shortcut icon' type='image/x-icon' href='./favicon.gif' />
+        <link rel="stylesheet" href="style.css"> 
+        <meta charset="UTF-8">       
+		<title>IoT Section 4</title>
+		
+    </head>
+	
+    <body>
+		<h1>
+			<label>IoT Assignment 3</label>
+		</h1>
+
+		<table>
+			<tr>
+				<td><label for="url">Server URL:</label></td>	
+				<td><input type="text" id = "url" name="URL"><br></td>
+			</tr>
+			<tr>	
+				<td><label for="port">Websocket:</label></td>
+				<td><input type="text" id = "port" name="Port"><br></td>
+			</tr>
+			<tr>			
+				<td><label for="username">Username:</label></td>
+				<td><input type="text" id = "username" name="Username"> <br></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password:</label></td>
+				<td><input type="password" id = "password" name="Password" ><br></td>
+			</tr>
+		
+		</table>
+		
+ 		<button id = "connect" class="button button1">1. Connect</button>
+		<button type="submit" id = "subscribe" class="button button1">2. Subscribe</button>
+		<button id = "publish" class="button button1" >3. Publish</button>
+		<button id = "disconnect" class="button button1">4. Disconnect</button><br>
+		
+		<table>
+			<tr>
+				<td><label for="topic">Topic:</label></td>
+				<td><input id = "topic" name="Topic"><br></td>
+			</tr>
+			<tr>
+				<td><label for="message">Message:</label></td>
+				<td><textarea class="textarea" id= "message" name ="Message" rows="5" cols="51"></textarea></td>
+			</tr>
+		</table>
+		<br><p> This assignment was undertaken by:	</p><br>
+		
+		<table class="info">
+			<tr>
+				<th>Name</th>
+				<th>Student Number</th>
+			</tr>
+			<tr>
+				<td>Neil Hamilton</td>
+				<td>C11459152</td>
+			</tr>
+			<tr>
+				<td>Sravya Garlapati</td>
+				<td>C13720995</td>
+			</tr>			
+		</table>
+		
+		<script type="text/javascript" src="js/mqttws31.js" ></script>
+		<script type="text/javascript" src="js/MQTTcode.js"></script>
+    </body>
+</html>

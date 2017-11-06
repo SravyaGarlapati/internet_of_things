@@ -1,0 +1,51 @@
+body {
+    background-image: url("http://www.dit.ie/media/logo/DIT_logocol2013.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #ff9999;
+	background-size: 780px;
+    font-size: 18px;
+}
+h1 {
+	text-align: center;
+	color: #008CBA;
+}
+
+th {
+	color: #0066cc;
+}
+input {
+	margin-left: 20px;
+	width: 378px;
+}
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #008CBA;
+}
+.button1:hover {
+	background-color: #008CBA;
+	color: white;
+}
+.info {
+	text-align: left;
+	color: black;
+}
+.textarea{
+	margin: 20px;
+	padding: 10px 5px;
+}
